@@ -1,0 +1,18 @@
+{
+    "short sizes": {
+        "S": 1,
+        "M": 1,
+        "L": 0,
+        "XL": 0
+    },
+    "t-shirt sizes": {
+        "S": 1,
+        "M": 1,
+        "L": 0,
+        "XL": 0
+    },
+    "backpacks": {
+        "New": 1,
+        "Old": 1
+    }
+}

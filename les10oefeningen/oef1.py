@@ -1,0 +1,61 @@
+import json
+
+
+if __name__ == '__main__':
+    catalog = {
+        "common": [
+            {
+                "common": "BLOODROOT",
+                "botanical": "SANGUINARIA CANDENSIS",
+                "zone": 4,
+                "light": "SUN",
+                "price": 2.44,
+                "availability": "031599"
+            },
+            {
+                "common": "COLUMBINE",
+                "botanical": "AQUILEGIA CANADENSIS",
+                "zone": 3,
+                "light": "SHADE",
+                "price": 9.37,
+                "availability": "030699"
+            },
+            {
+                "common": "MARSH MARIGOLD",
+                "botanical": "CALTHA PALUSTRIS",
+                "zone": 4,
+                "light": "SUN",
+                "price": 6.81,
+                "availability": "051799"
+            },
+            {
+                "common": "COWSLIP",
+                "botanical": "CALTHA PALUSTRIS",
+                "zone": 4,
+                "light": "SHADE",
+                "price": 9.90,
+                "availability": "030699"
+            },
+            {
+                "common": "DUTCHMAN'S-BREECHES",
+                "botanical": "DIECENTRA CUCULLARIA",
+                "zone": 3,
+                "light": "SHADE",
+                "price": 6.44,
+                "availability": "012099"
+            },
+            {
+                "common": "GINGER, WILD",
+                "botanical": "ASARUM CANADENSE",
+                "zone": 3,
+                "light": "SUN",
+                "price": 9.03,
+                "availability": "041899"
+            }
+        ]
+    }
+
+    file = open("files/file1.json", "w")
+    json.dump(catalog, file, indent=3)
+
+
